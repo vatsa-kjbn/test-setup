@@ -1,16 +1,17 @@
-# test
+# Description of all 4 layers
 
-A new Flutter project.
+Application layer -
+- Description: This is the business logic layer which is responsible for processing and managing data, handling user inputs, and implementing the overall business logic.
+- Components: BLoCs
 
-## Getting Started
+Domain layer -
+- Description: This layer is focused on representing the core data models and entities of the application. It defines rules that govern the application's business domain.
+- Components: Entities and data models
 
-This project is a starting point for a Flutter application.
+Infrastructure layer -
+- Description: This layer deals with data sources, both external and local. It provides mechanisms to store and retrieve data, connect to external services or databases.
+- Components: Local database and APIs
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Presentation layer -
+- Description: This is the UI layer which contains all the screens, widgets, and components that users see and interact with.
+- Components: User interfaces, screens, widgets, and other UI elements
